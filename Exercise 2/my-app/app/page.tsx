@@ -1,8 +1,6 @@
-
-import React from 'react'
 import Counter from './components/counter/counter'
 
-const page = () => {
+export default function Page() {
   return (
     <div>
       <h1>Hello World</h1>
@@ -10,5 +8,3 @@ const page = () => {
     </div>
   )
 }
-
-export default page
